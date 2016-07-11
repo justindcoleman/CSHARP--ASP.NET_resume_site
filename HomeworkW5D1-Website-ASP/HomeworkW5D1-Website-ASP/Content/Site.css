@@ -22,3 +22,39 @@ select,
 textarea {
     max-width: 280px;
 }
+
+/* altering jumbotron from bootstrap*/
+.jumbotron {
+    padding: 15px;
+    margin-bottom: 15px;
+    font-size: 15px;
+    font-weight: 180;
+    line-height: 2.1428571435;
+    color: inherit;
+    background-color: #ffffff;
+    .resumeBlockCurrent;
+
+{
+    color: white;
+}
+
+.resumeBlockOlder {
+    color: white;
+}
+
+.proTrain {
+    color: grey;
+}
+
+ol, li {
+    font-family: Garamond;
+    color: grey;
+}
+
+h3 {
+    color: white;
+}
+
+body {
+    text-align: left;
+    font-family: Garamond;
