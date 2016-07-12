@@ -9,9 +9,10 @@ namespace HomeworkW5D1_Website_ASP.Controllers
     public class HomeworkController : Controller
     {
         // GET: Homework
-        public ActionResult Index()
+        public ActionResult Index(string word, int integer = 1)
         {
-            ViewBag
+            ViewBag.Word = word;
+            ViewBag.Integer = integer;
             return View();
         }
     }
